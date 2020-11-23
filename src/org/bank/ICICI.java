@@ -27,6 +27,11 @@ public class ICICI implements RBI,SBI{
 		System.out.println("Deposit is 7%");
 		
 	}
+	
+	public void Maturity() {
+		System.out.println("Maturity");
+
+	}
 	public static void main(String[] args) {
 		ICICI ic=new ICICI();
 		ic.saving();
